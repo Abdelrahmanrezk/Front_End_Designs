@@ -1,0 +1,751 @@
+/*
+navbar-inverse
+navbar-fixed-top
+هنا بدى للبودى بادنج توب 70 بكسل عشان الكلام ميجيش تحت الناف بار عشان الناف اصلا فكسد 
+container-fauld بياخد الويدث كله 
+data target الى هو انا لما ادوس على الزرار يفتح معايا حاجه معينه او يروح لحاجه معينه وهكذا
+min-width بتاعلج مشاكل انى ادى للعنصر تاثيرات حركيه
+*/
+/* ---------------------------------------Start Our Coding ---------------------*/
+
+
+body { padding-top:70px; overflow: hidden}
+
+
+/* Start our Same options*/
+
+
+.about .our .content .fa-arrow-right,.about .our .link2,
+.features .our-features .features-content1 span,
+.features .our-features .features-content2,
+.features .our-features .features-content2 span,.features .our-features .features-content3,
+.features .our-features .features-content3 span,.features .our-features .features-content4,
+.features .our-features .features-content4 span,.price-table .our-price img,.price-table .our-price a,
+.main-product .content a,.subscribe button,.footer .container .connected ul li img,
+.navbar .navbar-header .navbar-brand > img,.navbar-inverse .navbar-nav > li > a,
+ .carousel-caption,.testimonials .carousel-indicators li,.features .angel,
+.features .our-features .features-content1, .features .our-features .features-content2, .features .our-features .features-content3, .features .our-features .features-content4,#scroll-top
+    {
+        -webkit-transition: all .7s ease-in-out;
+        -moz-transition: all .7s ease-in-out;
+        -o-transition: all .7s ease-in-out;
+         transition: all .7s ease-in-out
+    }
+
+.about .our .content .fa-arrow-right:hover {transform: translate(5px)}
+
+
+.price-table .our-price:hover img,.testimonials .carousel-indicators li:hover{transform: rotate(360deg)}
+
+.main-product .image img{transform: rotate(40deg);margin: 50px}
+
+.navbar .navbar-header .navbar-brand > img:hover,#scroll-top:hover{transform: scale(1.1)}
+
+.carousel-caption:hover,.features .angel:hover{transform: translateY(7px)}
+
+/* End our Same options*/
+
+
+/* Start Section About us 1*/
+
+.about{padding-top:60px;padding-bottom: 60px;}
+
+.about h1
+    {
+        padding-bottom:30px;
+        color:#333;
+        font-size: 30px
+    }
+
+.about .our .content .fa-arrow-right
+    {
+        padding: 4px 6px 4px 8px;
+        border-radius: 50%;
+        margin-right: 6px;
+        background-color: #3b6caa;
+        color: #fff;
+        cursor: pointer;
+        
+    }
+
+
+
+.about .our .content .first{font-size: 17px}
+
+.about .our .content 
+    {
+        margin: 0;
+        padding: 30px 20px 40px 20px ;
+        width:294px;
+        background-color: #DDD
+    }
+
+.about .our .three{background-color: #fff !important;} 
+
+.about .our .last{width: 300px}
+
+.about .our .content p{font-size: 14px}
+
+.about .our .content  span
+    {
+        color:#3b6caa;
+        margin-top:-18px; 
+        font-size: 17px
+    }
+
+/* End Section About us 1*/
+
+/* Start SEction About Us 2 */
+
+.about .our .link2
+    {
+        background-color: #264a60;
+        text-decoration: none;
+        display: block;
+        border:2px solid #fff;
+        color: #fff;
+        width:170px;
+        text-align: center;
+        padding:12px;
+        margin-left: 30px;
+       
+    }
+
+.about .our .link2:hover 
+    {
+
+        background-color: #fff;
+        color: #333
+    }
+
+/* End Section About Us 2*/
+
+/* Start Section media links */
+
+.media-links
+    {
+        padding-bottom: 50px;
+        background: url('../images/robot.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 450px
+    
+    }
+
+.media-links .media-overlay
+    {
+        background-color: rgba(0,0,0,.4);
+         min-height: 450px
+    }
+
+.media-links .media-overlay .our-links {padding-top:40px; padding-bottom: 40px}
+
+.media-links .media-overlay .our-links a:last-child { margin-right: 0;}
+
+.media-links .media-overlay .our-links a
+    {
+        margin-right: 20px;
+        text-decoration: none;
+        display: inline-block;
+        color: #fff;
+    }
+
+.media-links .media-overlay h2 { font-size: 45px;padding-bottom: 40px}
+
+.media-links .media-overlay h3
+    {
+        color: #fff;
+        padding-top:30px;
+        font-size: 35px;
+    
+    }
+
+.media-links .media-overlay .images .media-images img
+    {
+  
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+
+    }
+
+/* End Our Media links*/
+
+/* Start Section Features */
+
+.features
+    {
+        padding-top:50px;
+        padding-bottom: 50px;
+        background-color: #EBF4F9
+    }
+
+.features h2{ padding-bottom: 50px}
+
+.features .our-features .features-content1{border:2px solid #5596e6;cursor: pointer}
+
+.features .our-features .features-content1 span{line-height: 100px;color: #5596e6;}
+
+.features .our-features .features-content1,
+
+
+.features .our-features .features-content1:hover{background-color: #5596e6;}
+
+.features .our-features .features-content1:hover,
+.features .our-features .features-content1:hover span,
+.features .our-features .features-content2:hover,
+.features .our-features .features-content2:hover span,
+.features .our-features .features-content3:hover,
+.features .our-features .features-content3:hover span,
+.features .our-features .features-content4:hover,
+.features .our-features .features-content4:hover span{ color: #fff}
+
+.features .our-features .features-content2{ border:2px solid #601146;cursor: pointer}
+
+.features .our-features .features-content2 span{line-height: 100px;color: #601146;}
+
+
+
+.features .our-features .features-content2:hover{background-color: #601146}
+
+.features .our-features .features-content3{ border:2px solid #ff5050;cursor: pointer}
+
+.features .our-features .features-content3 span{ color: #ff5050;line-height: 100px;}
+
+
+
+.features .our-features .features-content3:hover{background-color: #ff5050}
+
+.features .our-features .features-content4{ border: 2px solid #5aa700;cursor: pointer}
+
+.features .our-features .features-content4 span{color: #5aa700;line-height: 100px;}
+
+
+
+.features .our-features .features-content4:hover{background-color: #5aa700}
+
+.features .lead{font-size: 16px;font-weight: bold}
+
+.features .our-features .features-content1,
+.features .our-features .features-content2,
+.features .our-features .features-content3,
+.features .our-features .features-content4
+    {
+        background-color: #fff;
+        height: 150px;
+        width: 220px;
+        box-sizing: border-box;    
+    }
+
+/* End Section Features */
+
+/*Start Section price table */
+
+.price-table
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color:#DDD;
+    }
+
+.price-table h2{ font-size: 30px;padding-bottom: 40px}
+
+.price-table .our-price
+    {
+        border:2px solid #000;
+        background-color: #EEE;
+        padding:10px;
+        padding-bottom:30px;
+        margin-bottom: 30px
+   
+    }
+
+
+
+.price-table .our-price ul{ font-size: 18px;line-height: 250%;}
+
+.price-table .our-price img{border-radius: 50%}
+
+.price-table .our-price a
+    {
+        font-size: 20px;
+        display: inline;
+        border: 1px solid transparent;
+        border-radius: 20px; 
+    }
+
+.price-table .our-price a:hover
+    {
+        background-color: #fff;
+        color: #333;
+        border: 1px solid #333
+    }
+
+/*End section price table */
+
+/* Start Section Main Product*/
+
+.main-product
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #333;
+        background: url('../images/len.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: #fff;  
+    }
+
+.main-product .main-product-overlay
+    {
+        background-color: rgba(0,0,0,.5);
+        min-height: 700px;
+        margin-top:-50px;
+        margin-bottom:-50px;
+    }
+
+.main-product h2
+    {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        display: inline-block;
+        margin-right: 15px;
+        font-size: 40px; 
+    }
+
+.main-product .content h3{font-size: 40px;padding-bottom: 25px}
+
+.main-product .content .lead{color:#DDD;line-height: 1.8}
+
+.main-product .content a
+    {
+        font-size: 40px;
+        border: 1px solid transparent;
+        border-radius: 20px;
+    }
+
+.main-product .content a:hover
+    {
+        background-color: #fff;
+        color: #333;
+        border: 1px solid #333
+    }
+
+.main-product span{color: yellow}
+
+.main-product .image img{margin: 50px}
+
+/* End Section Main Product*/
+
+/* Start Section Subscribe */
+
+.subscribe{padding-top: 50px;padding-bottom: 100px;}
+
+.subscribe .our-form .form-group .text
+    {
+        float: right;
+        margin-right: 25px;
+        margin-top: -40px;
+        position: relative;
+        z-index:2 ;
+        color: #333;
+        width: 20%
+    }
+
+.subscribe .our-form .form-group input
+    {
+        margin: 10px;
+        padding:15px;
+        display:inline;
+        width:80%;
+        border-left:3px solid #2196f3
+    }
+
+.subscribe  .area
+    {
+        padding:25px;
+        text-align: justify;
+        border-left:3px solid #2196f3
+    }
+
+.subscribe button
+    {
+        position: absolute;
+        bottom: -70px;
+        right: 50px;
+        margin:10px;
+        font-size: 18px;
+    }
+
+.subscribe button span{color: #333;margin: 6px 10px 6px 10px}
+
+.subscribe button:hover
+    {
+        background: #fff;
+        color: #333;
+        border:1px solid #333; 
+    }
+
+.subscribe .area .text
+    {
+        position: absolute;
+        margin-top: -75px;
+        margin-left: 470px
+    }
+
+/* End Section subscribe */
+
+/* Start Footer*/
+
+.footer
+    {
+        padding-top:100px;
+        padding-bottom:100px;
+        background-color:#dab413;   
+    }
+
+.footer .container
+    {
+        background-color: #282828;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+.footer .container .company h3{font-size: 17px}
+
+.footer .container .company p{font-size: 15px}
+
+.footer .container .company span{display: block;text-align: right}
+
+.footer .container .connected { padding-left: 50px}
+
+.footer .container .connected ul li{margin: 10px}
+
+.footer .container .connected ul li img
+    {
+        margin-right: 20px;
+        opacity: .3;
+        cursor: pointer;
+    }
+
+.footer .container .connected ul li img:hover{ opacity: 1}
+
+.footer .container .connected ul li a{text-decoration: none;color: gray}
+
+.footer .container .information{padding-left: 50px}
+
+.footer .container .information span{display: inline-block;margin-right: 10px}
+
+.footer .container .information .lead:first-of-type{display: inline-block}
+
+.footer .container .information .lead:nth-child(3),
+.footer .container .information .lead:nth-child(4){margin-left: 43px}
+
+.footer .container .information div:nth-child(2){padding-left: 8px}
+
+/* End footer*/
+
+/*Start Our End Fotter*/
+
+ .our-end .container{ background-color: #221e1d;}
+
+.our-end .container p{font-size: 16px}
+
+.our-end .container ul li{display: inline-block}
+
+/*End Our End Fotter*/
+/* ---------------------------------------Start Our Coding ---------------------*/
+
+/*-------------------------------Start Overriding bootstarp--------------------------*/
+
+/* sTART Navbar */
+
+.navbar{min-height: 70px}
+
+/* brand name */
+
+.navbar .navbar-header .navbar-brand > img
+    {
+        margin-top:-10px;
+        padding-top:10px;
+        min-width: 100px   
+    }
+
+/* active linke of nav bar*/
+
+/* nav bar links */
+
+.navbar-inverse .navbar-nav > li > a
+    {
+        color:#fefffd;
+        font-size: 19px;
+        text-transform: capitalize;
+        color: bd8154;
+        padding-top:25px;
+        padding-bottom: 25px
+    }
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {color: #5487ad}
+/* End Nav Bar */
+
+/* Start carousel */
+
+.carousel-caption
+    {
+        bottom: 80px;
+        background-color: rgba(255, 0, 0, 0.45);
+        padding:15px;
+        min-width: 800px;
+        border-radius: 20px;
+    }
+
+.carousel-caption h3
+    {
+        padding-bottom: 20px;
+        color:#57d449;
+        text-transform: uppercase;
+        font-size: 22px
+    }
+
+.carousel-caption p{color:#9253d4;font-size: 22px}
+
+.carousel-indicators{bottom: 0}
+
+.carousel-indicators li {width:15px;height: 15px;}
+
+.carousel-indicators .active
+    {
+        width:17px;
+        height: 17px;
+        background-color:#595690
+    }
+
+/* End carousel*/
+
+/* start Testimonials carousel */
+
+.testimonials 
+    {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        background: url('../images/s.jpg') no-repeat center center fixed ;
+        background-size: cover;
+    }   
+
+.testimonials h2{padding-bottom: 25px}
+
+.testimonials .carousel-inner .item h3
+    {
+        font-size: 30px;
+        font-weight: bold;
+        color: #000;
+        margin-top: -80px;
+        margin-bottom: 40px
+    }
+
+.testimonials .carousel-inner .item .lead
+    {
+        padding-bottom: 120px;
+        line-height: 1.8;
+        font-size: 25px;
+    }
+
+.testimonials .carousel-inner .item .lead time{ color: red;font-style: italic}
+
+.testimonials .carousel-indicators
+    {
+        position: static;
+        width: 100%;
+        margin-left: auto;
+    }
+
+.testimonials .carousel-indicators .active
+    {
+        opacity: 1;
+        background: none;
+        border:2px solid #000;
+        width:80px;
+        height: 80px;
+    }
+.carousel-inner > .item > img {
+    width:100%
+}
+
+.testimonials .carousel-indicators li
+    {
+        width:80px;
+        height: 80px;
+        text-indent: 0;
+        margin: 10px;
+        border:2px solid #fff;
+        opacity: .5;
+        border-radius: 50%;
+        overflow: hidden;  
+    }
+
+.testimonials .carousel-indicators li img
+    {
+        width:80px;
+        height: 80px;
+        border-radius: 50%; 
+    }
+
+
+
+/* End Testimonials carousel */
+
+
+/*-------------------------------End Overriding bootstarp--------------------------*/
+
+/* Start Section tool box*/
+.option-box
+    {
+        position: fixed;
+        top:100px;
+        left: 0;
+        z-index: 99999;
+    
+    }
+.option-box .color-options
+    {
+        float: left;
+        color: #fff;
+        background: #333;
+        padding:5px;
+        width:150px;
+        display: none 
+    }
+
+.option-box .color-options ul li
+    {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-right: 10px;
+        cursor: pointer
+    }
+
+.option-box .gear-check
+    {
+        padding: 5px;
+        color: #fff;
+        cursor: pointer
+    }
+
+/* Start Section tool box*/
+
+/* Start Section Loading */
+
+.overlay-loading
+    {
+        background:#222;
+        color:#fff;
+        position: fixed;
+        left:0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index:99999
+    }
+.overlay-loading h1{color: yellow}
+.face
+    {
+        width:200px;
+        height:200px;
+        background-color:yellow;
+        margin: 150px auto;
+        border-radius: 50%;
+        position: relative;
+    }
+.eye1
+    {
+        width: 30px;
+        height: 36px;
+        background-color: #fff;
+        position: absolute;
+        top: 50px;
+        left: 18px;
+        border-radius: 50%;
+        transition: all 1s ease-in-out
+    }
+.eye2
+    {
+        width: 30px;
+        height: 36px;
+        background-color: #fff;
+        position: absolute;
+        top: 50px;
+        right: 18px;
+        border-radius: 50%;
+    }
+.mouse
+    {
+        width: 36px;
+        height: 13px;
+        background-color: #555;
+        position: absolute;
+        top: 100px;
+        left: 83px;
+        border-radius: 15%;
+        border-top-left-radius: 20% 
+    }
+.mouse-fown{position: relative}
+
+.mouse .mouse-fown span
+    {
+        position: absolute;
+        background-color: #fff;
+        width: 35px;
+        height: 12px;
+        top: 1px;
+        left: 1px;
+        border-radius: 20px;
+    }
+
+.face .eye1 .down{position: absolute}
+
+.face .eye1 span:first-child{ margin-top: 37px}
+
+.face .eye1 span 
+    {
+        background-color: #fff;
+        width: 10px;
+        height: 10px;
+        display: block;
+        margin-bottom: 2px;
+        border-radius: 50%;
+        margin-left: 10px; 
+    }
+.face .eye2 span:first-child{margin-top: 37px}
+.face .eye2 span 
+    {
+        background-color: #fff;
+        width: 10px;
+        height: 10px;
+        display: block;
+        margin-bottom: 2px;
+        border-radius: 50%;
+        margin-left: 10px;   
+    }
+
+/* Start Section Loading */
+
+/* Start Section Scroll to top*/
+#scroll-top{
+    width:50px;
+    height: 40px;
+    background-color: #272727;
+    text-align: center;
+    color: #DDD;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 9999;
+    cursor: pointer;
+    display: none
+}
+#scroll-top:hover{
+    background-color:seagreen
+}
+/* End Section Scroll to top*/
+
+

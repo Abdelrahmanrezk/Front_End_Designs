@@ -1,0 +1,42 @@
+/*----------------- from tablet to desktop     -------------------*/
+@media(min-width:768px)
+{
+
+}
+/*----------------- from mobile  to tablet     -------------------*/
+
+@media(max-width:991px)
+{
+
+
+/*---------- Nav Bar-------------*/
+.click-to-show
+{
+	
+	border:none;
+	cursor: pointer;
+}
+.click-to-show .navbar-toggler-icon{
+	transition: .3s;
+}
+.click-to-show .background-change
+{
+	background-image: url("../images/cansl.png") !important;
+}
+/*---------- Nav Bar-------------*/
+
+}/*----------------------end of media 991px---------------*/
+
+/*----------------- only mobile    -------------------*/
+@media(max-width:575px)
+{
+
+
+}/*----------------------end of media 575px---------------*/
+
+/*----------------- from mobile to desktop     -------------------*/
+@media(min-width:576px)
+{
+
+
+}/*----------------------end of media 576px---------------*/

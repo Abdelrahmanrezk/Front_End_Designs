@@ -1,0 +1,841 @@
+/* هاحاول اخلى السكاشن بالميديا كويرى بتاعتها كل سكشن مع حاله تحت بعض 
+فى الاخر هاحاول اظبط كل سكشن مع الميديا كويرى الخاص بيها فى بلوك من الكود لوحده باذن الله
+*/
+/* Start Main Features */
+/*Clickable item*/
+.clickable-item{
+    position: relative
+}
+.clickable-anchor{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.link,.link:hover,.link:focus{
+    font-size: 16px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-weight: 700
+}
+.bg-pattern{
+    background-image: url('../images/pattern.jpg');
+    background-repeat: repeat
+}
+.video{
+    position: relative;
+    
+}
+.video:before{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -90px;
+    left:-80px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat
+}
+  
+.video .video-bg{
+    width:100%;
+    min-height: 100%
+}
+.video .video-controls{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top:40px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,207cca+100,2989d8+100,000000+100&0+0,1+100 */
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+   
+    
+}
+.video .video-controls .control{
+    background: none;
+    border: none;
+    color: #fff
+}
+.video .video-controls .control .icon{
+    
+
+    display: inline-block;
+    vertical-align: center;
+    vertical-align: c;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 12px;
+    }
+.story-section .video{
+    width: 80%;
+  
+}
+/*End Section two of our story */
+.section-title .small{
+        font-size: 12px;
+    font-weight: 600;
+    color: inherit;
+    display: block;
+    letter-spacing: 9px;
+    color: #999;
+    margin-bottom: 20px;
+}
+ .section-header .section-title{
+    font-size: 45px;
+      line-height: 0.9;
+     margin-top:0
+    
+} 
+.section{
+   
+    min-height: 700px;
+    padding:92px 0;
+}
+
+body{
+     
+   overflow-x: hidden
+}
+html,body{
+    height: 100%
+}
+button:focus{
+    outline: none
+}
+.pargraph{
+    color: #999;
+    font-size: 14px;
+    line-height: 1.8
+}
+.black{
+    color: #333
+}
+.bold{
+    font-weight: 600
+}
+.italic{
+ 
+    font-style: italic
+}
+.section-body .author{
+    margin-top:55px
+}
+a,a:hover,a:focus{
+        color: inherit;
+}
+
+.btn{
+    font-size: 17px;
+    text-transform: uppercase;
+    border: 1px solid #333;
+    border-radius: 0;
+    padding:15px 23px;
+    font-weight: 600;
+    display: inline-block;
+        transition: .7s
+}
+.btn:hover{
+    background-color: #333;
+    color: #fff;
+
+}
+.ratio-holder{
+    position: relative;
+    overflow: hidden
+    
+}
+.ratio-holder .ratio.video-ratio{
+    padding-top:100%
+}
+.ratio-holder .ratio.menu-ratio{
+    padding-top: 70%
+}
+.ratio-holder .ratio-content{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+.ratio-holder .ratio-content img{
+    width: 100%;
+    min-height: 100%
+}
+ @media (max-width:767px){
+     .video:before{
+        bottom: -30px;
+        left: -25px
+        }
+    }
+/* Start Main Features */
+/*Start header and section one */
+
+
+
+/* Start Google Fonts */
+.Playfair-font{
+    font-family: 'Playfair Display', serif;
+}
+/* End Google Fonts */
+
+
+.main-section{
+     background-color: #000;
+    position: relative;
+    padding-top:200px !important;
+    min-height: 500px
+}
+.main-section .section-info{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0
+}
+.main-section .section-info .info-image{
+    margin-bottom: -100px;
+    border-radius: 50%;
+    box-shadow: 2px 12px 40px 0 rgba(0,0,0,.25);
+    float: right
+}
+.main-section .section-info .information{
+    font-size: 12px;
+    color: #fff;
+    text-align: right;
+    position: absolute;
+   right: 0;
+    bottom: 40px
+    
+ 
+}
+.main-section .section-info .container{
+    position: relative !important
+}
+.main-section .section-info .information .phone-number{
+    font-size: 26px;
+    margin:0 0 25px;
+    
+}
+.main-section .section-info .information .small{
+    color: #ccc;
+    margin:0
+}
+
+.main-section .section-info .information .white{
+   color: #fff
+}
+.main-section .image-cover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+     opacity: 0.6;
+    overflow: hidden
+}
+.main-section .image-cover img{
+    width:100%;
+    min-height: 100%;
+    
+    
+}
+.main-section .section-title {
+    font-size: 45px;
+    color: #fff;
+    text-align: right;
+   
+}
+
+
+
+
+/* Start Header*/
+header{
+    padding:20px 0;
+    position: fixed;
+     top:0;
+    left: 0;
+    right: 0;
+    z-index: 5
+}
+header.sticly{
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.5);
+    
+}
+header.sticly .logo img{
+    top:-100%
+}
+header.sticly .nav-items{
+    color: #333
+}
+
+header .logo{
+    width:35px;
+   overflow: hidden;
+    position: relative;
+    display: inline-block;
+  
+    
+}
+header .logo:before{
+    content:'';
+    display: block;
+    padding-top:131.4%
+}
+header .logo img{
+    height: 200%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+   
+}
+header nav {
+    float: right;
+}
+header nav .nav-list{
+    margin-top:17px;
+    margin-bottom: 0
+}
+header nav .nav-items{
+    display: inline-block;
+    color: #fff;
+    margin-left: 50px;
+        margin-top:10px
+}
+header nav .nav-items:first-child{
+    margin-left: 0
+}
+header nav .nav-items a,header nav .nav-items a:hover,
+header nav .nav-items a:focus{
+    color: inherit;
+    text-decoration: none
+}
+header nav .nav-items:last-child{
+    margin-left:80px
+}
+header nav .nav-items:last-child .icon{
+    margin-left: 5px;
+    vertical-align: middle;
+    position: relative;
+    transition: right 0.4s
+}
+/* End Header*/
+
+
+/* Mobile Navigation Style */
+@media (min-width:767px){
+    header nav .nav-btn{
+        display: none
+    }
+    header nav .nav-list .nav-items{
+        position: relative
+    }
+    header nav .nav-list .nav-items:before{
+        content: '';
+        position: absolute;
+        top: 22px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 0;
+        height: 3px;
+        background-color: #fff;
+        display: block;
+        transition: width .4s
+    }
+   
+    header.sticly nav .nav-list .nav-items:before{
+        background-color: #333
+    }
+    header nav .nav-list .nav-items:hover:before{
+        width: 100%
+    }
+    header nav .nav-items:hover:last-child .icon {
+        
+        right: -5px
+    }
+}
+@media (max-width:767px){
+    
+       .main-section .section-title{
+        text-align: center;
+        font-size: 30px;
+           line-height: 1.2
+        
+    }
+   .main-section{
+       height: 500px;
+        padding-top: 100px
+    }
+    .section{
+        height: auto
+    }
+   
+    .main-section .section-info .information{
+        bottom: 20px
+    }
+    
+    .main-section .section-info .information .phone-number{
+    font-size: 20px;
+    margin:0 0 12px;
+    
+}
+    header nav:not(.active) .nav-list{
+        transition: 1s;
+        transition-delay: 1.4s;
+        margin-right: -200px
+    }
+    header nav:not(.active) .nav-list .nav-items{
+        right:-200px
+    }
+     header nav:not(.active) .nav-btn {
+        background-color: transparent;
+    }
+     header.sticly nav:not(.active) .nav-btn .btn-line {
+        background-color: #333;
+    }
+    header nav .nav-list{
+        position: absolute;
+        right: 0;
+        top:100%;
+        margin:0;
+       width: 200px;
+        text-align: center;
+        padding:0
+        
+    }
+    header nav .nav-list .nav-items{
+        display: block;
+        margin-left: 0;
+        background-color: #333;
+        margin-bottom: 10px 0 0;
+        position: relative;
+        right: 0;
+        color: #fff;
+        transition: right 0.4s
+  
+    }
+     header nav .nav-list .nav-items:nth-child(2){
+        transition-delay:.2s
+    }
+      header nav .nav-list .nav-items:nth-child(3){
+         transition-delay:.4s
+    }
+      header nav .nav-list .nav-items:nth-child(4){
+         transition-delay:.6s
+    }
+      header nav .nav-list .nav-items:nth-child(5){
+         transition-delay:1.0s
+    }
+    header nav .nav-list .nav-items:hover,
+    header nav .nav-list .nav-items.active{
+        transition: all .7s ease-in-out
+    }
+     header nav .nav-list .nav-items:hover,
+    header nav .nav-list .nav-items.active{
+        background-color: #000
+    }
+   
+    header nav .nav-list .nav-items:last-child{
+        margin-bottom: 0
+    }
+    header nav .nav-list .nav-items a {
+        display: block;
+         padding:15px;
+    
+       
+        border-right: 5px solid #252525
+    }
+    header nav .nav-btn{
+        background: none;
+        border: none;
+        width:40px;
+        margin-top: 8px;
+        padding:9px 7px;
+        background-color: #333;
+        border-radius: 5px
+        
+    }
+    
+    header nav .nav-btn .btn-line{
+        display: block;
+        height: 2px;
+        margin-bottom: 6px;
+        background-color: #fff;
+        
+    }
+    header nav .nav-btn .btn-line:last-child{
+         margin-bottom:0;
+    }
+   
+   
+    
+}
+
+@media (max-width:991px){
+ 
+    .main-section .section-info .info-image{
+        width: 300px
+    }
+     .section-header .section-title{
+    font-size: 30px;
+     line-height: 1.5
+    
+} 
+    .section-body .author{
+        margin-top:20px
+    }
+    .story-section .resevation {
+    margin-top: 40px !important;
+    padding: 5px 10px;
+     font-size: 15px; 
+}
+    
+}
+
+@media (max-height:600px) and (min-width:768px){
+       .main-section{
+        padding-top: 100px
+    }
+    .main-section .section-info .info-image{
+        width: 300px
+    }
+}
+
+/* Mobile Navigation Style*/
+
+
+
+/*Start Section two of our story */
+@media (min-width:768){
+    
+
+.story-section{
+    padding-top:180px
+}
+
+
+    }
+
+    .story-section .resevation{
+     margin-top:100px;
+}
+/* Video component */
+
+@media (max-width:767px){
+    .section-header .section-title{
+        text-align: center;
+        line-height: 1.2;
+        padding-bottom: 15px;
+        font-size: 23px
+    }
+    .section .section-body {
+        text-align: center
+    }
+   
+  .story-section .video{
+    margin: 35px auto 40px;
+
+    
+}
+ 
+}
+@media (min-width:768px){
+.story-section .video{
+   
+    float: right
+}
+}
+/*Start Slider Section */
+.section-slider{
+    min-height: 500px;
+    
+   
+}
+.card{
+    background-color: #fff;
+    padding:20px;
+
+}
+@media(max-width:400px){
+    
+   .card{
+
+    padding:0;
+
+} 
+    .card  .card-content{
+        padding: 0 10px 15px
+    }
+}
+.card .card-image{
+    position: relative;
+   
+}
+.card .card-image.have-price{
+    margin-bottom: 80px
+}
+.card .card-image .price-holder{
+    position: absolute;
+     bottom: -40px;
+    right: 0;
+    left: 0;
+    
+    text-align: center;
+    
+}
+.card .card-image .price-holder .price{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 35px;
+    border-radius: 50%:
+    line-height: 80px;
+    box-shadow: 0 0 0 5px rgba(255,255,255,.5);
+
+}
+
+.slider-container{
+    position: relative;
+    padding:0 45px;
+
+   
+}
+
+.slider-container .slider{
+    position: relative;
+        overflow: hidden
+}
+.slider-container .slider .slider-banner{
+        position: relative;
+    left: 0;
+    transition:left 0.4s
+}
+.slider-container .slider-arrow .arrow{
+    height: 46px;
+    background: none;
+    border: none;
+    position: absolute;
+    top:50%;
+    line-height: 1;
+    margin-top: -23px;
+    font-size: 45px;
+    color: #000;
+    z-index: 3
+}
+.slider-container .slider-arrow .arrow.disabled{
+    opacity: 0.5;
+    cursor: not-allowed
+}
+.slider-container .slider-arrow .arrow.preivous{
+    left: 0
+}
+.slider-container .slider-arrow .arrow.next{
+    right: 0
+}
+.menu-section .slider-container{
+  
+    margin-bottom: 50px;
+    
+}
+
+
+
+/* End Slider Section */
+
+/*Start Test Monials Section */
+.testimonial-section{
+    height: auto;
+    min-height: auto;
+    background:linear-gradient(rgba(0,0,0,4),rgba(0,0,0,.4)),url('../images/bg-2.webp');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+
+}
+.testimonial-section .testimonial-icon{
+    margin-bottom: 50px
+}
+.testimonial-section .testimonial-content .pargraph{
+    font-size: 40px;
+    color: #fff;
+   
+  
+}
+
+.testimonial-section  .container .author{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top:70px
+}
+.testimonial-section  .author:before{
+    content: "";
+    display: inline-block;
+    width:8px;
+    font-size: 15px;
+    height: 1px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-right: 5px
+}
+.testimonial-section  .author:after{
+    content: "";
+    display: inline-block;
+    width:8px;
+    font-size: 15px;
+    height: 1px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-left: 5px
+}
+@media(max-width:767px){
+    .testimonial-section .testimonial-content .pargraph{
+        font-size: 20px;
+        font-weight: bold;
+     
+    }
+}
+@media(max-width:430px){
+    .testimonial-section .testimonial-content .pargraph{
+        font-size: 12px;
+        font-weight: bold
+    }
+}
+
+/*End Test Monials Section */
+
+/* Start Chief slider */
+.testimonials-cheif{
+    height: auto;
+    min-height: auto
+}
+
+.slider-container .slider .slider-banner .slider-item{
+    float:left
+}
+.testimonials-cheif .chief-slider{
+    padding: 0
+}
+.testimonials-cheif .slider-arrow .arrow{
+    position: static;
+    margin-top:0;
+    font-size: 21px;
+    
+}
+
+.ratio-holder .ratio.cheif-ratio{
+    padding-top:119%
+}
+
+.testimonials-cheif .cheif-image img
+{
+    max-width: 350px
+}
+@media (max-width:991px){
+.testimonials-cheif .section-header,
+.testimonials-cheif .section-body {
+        text-align: center
+    }
+}
+
+/* End Cheif slider */
+
+/* sTart Promotions and events section */
+ .news-section .section-header{
+    display: block;
+    padding-bottom: 70px
+}
+
+.no-padding{
+    padding:0
+}
+
+.card .card-content.has-arraow{
+    position: relative
+}
+
+.card .card-content.has-arraow:before{
+    content: "";
+    position: absolute;
+    top:50%;
+    margin-top: -10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    z-index: 1
+}
+.card .card-content.has-arraow.arrow-left:before{
+    border-right: 15px solid #fff;
+    right:100%
+}
+.card .card-content.has-arraow.arrow-right:before{
+    border-left: 15px solid #fff;
+    left:100%
+}
+.card .card-content.has-arraow.arrow-top:before{
+    
+    border-bottom: 15px solid #fff;
+    border-top: 0;
+    left:50%;
+    margin-left: -10px;
+    bottom: 100%;
+    top:auto;
+     border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+.verticale-center{
+        height: 100%;
+    overflow: hidden
+}
+
+.verticale-center:before{
+    content: "";
+    width:1px;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-left: -10px
+}
+.verticale-center .vertical-center-content{
+    vertical-align: middle;
+    display: inline-block
+}
+.event-card .card-title{
+    max-width: 200px;
+      font-size: 20px;
+    margin:0 0 30px;
+    padding-bottom: 30px;
+    position: relative
+  
+}
+.event-card .card-title:after{
+    position: absolute;
+    content: "";
+    top: 100%;
+    left:50%;
+    margin-left: -38px;
+    width:76px;
+    border-bottom: 1px dashed #ccc;
+    display: block
+}
+.event-card .pargraph{
+    margin:0 0 1px;
+    font-size: 12px
+}
+/* End Promotions and events section */
+
+/* Start Section 

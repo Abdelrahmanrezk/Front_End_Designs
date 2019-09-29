@@ -1,0 +1,329 @@
+/*-----------------start Our main style information-----------------*/
+/*
+main background color in website 
+one :#08526d;
+Two :#ed1d24;
+main fonts color in website 
+one :#00000c; #for heading
+Two :#ed1d24;
+three:fefefe;
+main fonts size
+sliders heading is 70px
+heading for section 40px
+paragraphs is 16px
+
+letter-spacing:2px;
+
+
+
+*/
+
+
+/*-----------------End Our main style information-----------------*/
+/*-----------------start Main css-----------------*/
+
+.navbar-toggler:focus, 
+.navbar-toggler:hover,
+a:hover,
+a:focus
+{
+	outline: none;
+	text-decoration: none;
+  color: inherit;
+}
+dl, ol, ul{
+	margin: 0;
+}
+li{
+  list-style-type: none;
+}
+li a{color: inherit;}
+.animtionsWhiteHover{
+  transition: .5s
+}
+.animtionsWhiteHover:hover{
+  color:#fff;
+}
+body{
+  background-color: #18191d
+}
+
+.RubikMonoOne-font{
+  font-family: 'Rubik Mono One', sans-serif;
+}
+.Montserrat-font{
+  font-family: 'Montserrat', sans-serif;
+}
+/*-----------------End Main css-----------------*/
+
+
+
+.nav-bars #nav-icon1 
+{
+  padding: 14px 24px;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-bars #nav-icon1 span 
+{
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 5px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.nav-bars #nav-icon1 span:nth-child(1) { top: 0px; }
+
+.nav-bars #nav-icon1 span:nth-child(2) { top: 10px; }
+
+.nav-bars #nav-icon1 span:nth-child(3) { top: 20px; }
+
+.nav-bars #nav-icon1
+{
+	position: absolute;
+	right: 50px;
+	z-index: 999;
+	top: 30px;
+	transition: 1s
+}
+
+
+
+.nav-bars #nav-icon1.open span:nth-child(1) 
+{
+	top: 10px;
+  	transform: rotate(50deg);
+}
+
+.nav-bars #nav-icon1.open span:nth-child(2) 
+{
+ 	left: -40px;
+	opacity: 0;
+}
+
+.nav-bars #nav-icon1.open span:nth-child(3) 
+{
+  	transform: rotate(-50deg);
+  	top: 10px;
+}
+
+.nav-bars .aniated-nav { transition: 1s; }
+.nav-bars .aniated-nav.animated
+{
+	   height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    background-color: #717481;
+    overflow-x: hidden;
+    padding-top: 60px;
+    animation: myMoveing 1s 1;
+
+}
+.nav-bars .aniated-nav:not(.animated){
+  height: 0%;
+    width: 0%;
+    position: fixed;
+    right: 0;
+    background-color: #717481;
+    overflow-x: hidden;
+    padding-top: 60px;
+   animation: myMoveingReverse 1s 1;
+}
+
+.nav-bars .aniated-nav .hidden{ display: none; }
+
+.nav-bars .aniated-nav.animated .hidden  
+{
+	 display: block;
+    padding: 0;
+
+}
+
+.nav-bars .aniated-nav.animated .hidden .ul-nav-items .heading-name{
+    font-size: 100px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 50px
+}
+
+.nav-bars .aniated-nav.animated .hidden .ul-nav-items li  
+{
+	
+    color: #333;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    width: 130px;
+    transition: .5s;
+    text-align: center;
+    padding: 3px 10px;
+   
+}
+.nav-bars .aniated-nav.animated .hidden .ul-nav-items li:hover{
+ border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-right: none;
+  border-left: none
+}
+.nav-bars .aniated-nav.animated .hidden .ul-nav-items li a:last-child{
+  margin-bottom: 0
+}
+.nav-bars .aniated-nav.animated .hidden .ul-nav-items li  a{
+
+   font-size: 20px;
+    display: block;
+ 
+    
+}
+
+.nav-bars .aniated-nav.animated .hidden .rezk-info{
+    position: absolute;
+    bottom: 11%;
+}
+.nav-bars .aniated-nav.animated .hidden .rezk-info li{
+  color: #333;
+  position: relative;
+  
+}
+
+.nav-bars .aniated-nav.animated .hidden .rezk-info li a{
+
+    font-size: 20px;
+    
+ }
+
+ .nav-bars .aniated-nav.animated .hidden .rezk-info li:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* width: 0; */
+    transition: .5s;
+    border: 1px solid #red;
+    width: 0px;
+    height: 2px;
+    background: #333;
+
+
+ }
+  .nav-bars .aniated-nav.animated .hidden .rezk-info li:hover:after{
+     width: 90%;
+  }
+
+.logos{
+
+     position: absolute;
+    right: 0%;
+    transition: .5s;
+    top: 30px;
+    visibility: hidden;
+   color: #808391
+
+}
+.logos a{
+    color: inherit;
+    font-size: 25px
+}
+
+.logos.animate-logos{
+  display: block;
+  right: 90%;
+   transition: .5s;
+  top: 30px;
+  visibility:visible;
+  color: #808391
+}
+
+.logos.animate-logos a{
+  color: inherit;
+  font-size: 25px
+}
+.logos.animate-logos:hover{
+  color: #fff;
+}
+
+.get-full-name{
+  position: absolute;
+    top: 30px;
+    right: 96%;
+    font-size: 25px;
+    color: #808391;
+}
+.main-slider{
+    position: absolute;
+    width:0%;
+    transition: .5s;
+    visibility: hidden;
+    height: 100%;
+    overflow-y: hidden;
+
+}
+
+.main-slider.go-back{
+    display: block;
+    background: #DDD;
+    width:60%;
+    height: 100%;
+    z-index: -1;
+    transition: .5s;
+    visibility:visible;
+
+}
+
+.main-slider.go-back{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.main-slider.go-back .outer{
+
+ width: 400px;
+ height: 400px;
+ position: absolute;
+ left: -500px
+}
+
+.main-slider.go-back .outer .heading-rotate{
+    transform: rotate(90deg);
+    position: absolute;
+    font-size: 80px;
+    left: -230px;
+    top:42%;
+    display: none
+}
+.main-slider.go-back .outer .par{
+
+      position: absolute;
+    bottom: -40%;
+    margin-left: 90px;
+    width: 400px;
+    left: -145px;
+    display: none
+}
+
+
+

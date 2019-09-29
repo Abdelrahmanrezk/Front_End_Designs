@@ -1,0 +1,123 @@
+/*----------------- from tablet to desktop     -------------------*/
+@media(min-width:768px)
+{
+						/*---------- upper Nav Bar-------------*/
+.upper-info .building
+{
+	margin-left: -20px
+}
+.any-a
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	background:transparent;
+	color: #fff;
+	transform: translate(-50px,-50px);
+	transition: .5s;
+	text-align: center;
+	letter-spacing: 2px;
+	cursor: pointer;
+	width: 150px;
+	position: absolute;
+    top: 50px;
+    left: 70%;
+}
+
+.any-a:after
+{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #71ACC3;
+	opacity: .7;
+	z-index: -1;
+	mix-blend-mode: multiply;
+	transform-origin: top;
+	transition: .5s;
+	bottom:  0px;
+	right:  0px
+}
+.any-a:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+.any-a:hover:after
+{
+	bottom: -22px;
+	right: 0;
+	transform: perspective(10000px) rotateX(-80deg);	
+}
+						/*---------- upper Nav Bar-------------*/	
+
+}
+						/*----------------- from mobile  to tablet     -------------------*/
+
+@media(max-width:991px)
+{
+						/*----------upper Nav Bar-------------*/
+.upper-info .mail
+{
+	display: block;
+}
+						/*----------upper Nav Bar-------------*/
+
+						/*---------- Nav Bar-------------*/
+.click-to-show
+{
+	
+	border:none;
+	cursor: pointer;
+}
+.click-to-show .navbar-toggler-icon{
+	transition: .3s;
+}
+.click-to-show .background-change
+{
+	background-image: url("../images/cansl.png") !important;
+}
+						/*---------- Nav Bar-------------*/
+
+}						/*----------------------end of media 991px---------------*/
+
+						/*----------------- only mobile    -------------------*/
+@media(max-width:575px)
+{
+						/*---------- upper Nav Bar-------------*/
+.upper-info .Connect
+{
+	display: block;
+}
+.upper-info .Connect
+{
+	margin-top:10px;
+}
+.any-a
+{
+	text-decoration: none;
+	border:1px solid #ec1c23;
+	padding: 5px;
+	color: #fff;
+
+}
+.any-a:hover
+{
+
+	text-decoration: none;
+	color: #fff;
+}
+						/*---------- upper Nav Bar-------------*/
+}						/*----------------------end of media 575px---------------*/
+
+						/*----------------- from mobile to desktop     -------------------*/
+@media(min-width:576px)
+{
+						/*---------- upper Nav Bar-------------*/
+.Connect i
+{
+	display: none;
+}
+						/*---------- upper Nav Bar-------------*/
+
+}						/*----------------------end of media 576px---------------*/

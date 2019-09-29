@@ -1,0 +1,139 @@
+/* Start Main Features */
+
+.container {
+    width: 1200px;
+    margin: auto
+}
+
+/* End Main Features */
+/* Start Header */
+header{
+    background-image: url(../images/a.jpg);
+    background-size: cover;
+    height: 600px;
+    text-align: center
+    
+}
+.overlay{
+   background: rgba(0,0,0,.5);
+    height: 600px
+}
+header .nav{
+    
+    background-color: #fff;
+  padding-bottom: 10px;
+    overflow: hidden;
+    padding-left:50px;
+    padding-top: 15px;
+    
+    
+    
+}
+header .nav  div{
+    float: left;
+    width:13.5%;
+    margin-right: 7px;
+    
+   
+    
+}
+header .nav  div:first-child{
+    
+    
+}
+header .nav  div img {
+    margin-bottom:  -10px
+}
+
+
+
+/* End Header */
+/* Start Form Header*/
+header .words {
+    padding-top: 50px
+}
+header .words h1{
+    color: #FCFFFF;
+    padding-bottom: 15px
+}
+header .words p{
+    color: #A3A3AD;
+    padding-bottom: 25px
+}
+button{
+ 
+  
+    background-color: firebrick;
+    border: 0 solid firebrick;
+    padding: 3.90px;
+    margin-left:-5px;
+    width: 200px
+   
+}
+
+form .all input[type=text] {
+    
+    background-image:url('../images/Search.png');
+    background-repeat: no-repeat;
+    width: 300px
+    
+}
+header .ul{
+    padding-top: 40px
+}
+header .ul div{
+    float: left;
+    width:16%;
+    
+}
+header .ul div .icon{
+    color: darkcyan
+}
+header .ul div p{
+    color: #8EB6CF
+}
+
+/* End form Hedaer */
+/* Start Fotter */
+footer{
+    color:red;
+    background-color: gray;
+    height: 70px;
+    overflow: hidden
+    }
+footer .fotter div{
+    float: left;
+    width:16%;
+    padding-top:20px;
+    cursor: pointer
+}
+footer .fotter div .icon{
+    padding-right: 10px;
+   
+    color: #A7BECE
+}
+footer .fotter .change:hover
+
+
+
+
+
+{
+    border-top:3px solid #080;
+    background-color:#FFF;
+    height: 70px;
+    
+    
+    
+}
+footer .fotter .change i:hover,
+footer .fotter .change span:hover{
+    color:#080;
+}
+
+
+footer .fotter div span{
+    color:darkmagenta;
+    font-size: 25px
+}
+/* End Fotter*/

@@ -1,0 +1,20 @@
+/* Start Default Theme */
+
+.about h1 span,.about .our h2,.media-links .media-overlay h2,
+.features h2,.price-table h2,.main-product h2,.subscribe h2,.testimonials h2,.footer .container
+    {color: #60659c}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,.dropdown-menu .divider,.carousel-indicators li,.option-box .gear-check
+
+    { background-color:#60659c;}
+
+.dropdown-menu 
+    {border-top:2px solid #60659c; }
+
+.option-box .color-options 
+    { border: 2px solid #60659c;}
+
+/* End Default Theme */

@@ -1,0 +1,39 @@
+/* Start purble theme */
+
+/* link */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+.contact-us form button,
+.option-box .gearCheck
+{
+    background-color:#E426D5
+}
+
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.features .feat span.glyphicon,
+.testimonils span,
+.our-team .team .person h3,
+.states .states-body:hover,
+.fotter h3,
+.fotter .copy span
+{
+    color:#E426D5;
+}
+.option-box .color-option,
+.testimonils .carousel-indicators li.active
+{
+     border:3px solid #E426D5
+}
+.dropdown-menu  
+{
+      border-top:2px solid #E426D5
+   }
+
+
+
+/* Start purble theme */

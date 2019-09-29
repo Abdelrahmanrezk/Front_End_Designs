@@ -1,0 +1,279 @@
+/*
+navbar-inverse
+navbar-fixed-top
+هنا بدى للبودى بادنج توب 70 بكسل عشان الكلام ميجيش تحت الناف بار عشان الناف اصلا فكسد 
+container-fauld بياخد الويدث كله 
+data target الى هو انا لما ادوس على الزرار يفتح معايا حاجه معينه او يروح لحاجه معينه وهكذا
+min-width بتاعلج مشاكل انى ادى للعنصر تاثيرات حركيه
+*/
+/* ---------------------------------------Start Our Coding ---------------------*/
+
+
+body { padding-top:70px; overflow: hidden}
+
+
+/* Start our Same options*/
+
+
+
+.subscribe button,.footer .container .connected ul li img,
+.navbar .navbar-header .navbar-brand > img,.navbar-inverse .navbar-nav > li > a,
+ #scroll-top,.about-ceo .images, .navbar .navbar-header .navbar-brand > img
+    {
+        -webkit-transition: all .7s ease-in-out;
+        -moz-transition: all .7s ease-in-out;
+        -o-transition: all .7s ease-in-out;
+         transition: all .7s ease-in-out
+    }
+.navbar .navbar-header .navbar-brand > img:hover,#scroll-top:hover{transform: scale(1.1)}
+
+.about-ceo  .images:hover {transform: translate(10px)}
+
+
+/* Start Section tool box*/
+.option-box
+    {
+        position: fixed;
+        top:100px;
+        left: 0;
+        z-index: 99999;
+    
+    }
+.option-box .color-options
+    {
+        float: left;
+        color: #fff;
+        background: #333;
+        padding:5px;
+        width:150px;
+        display: none 
+    }
+
+.option-box .color-options ul li
+    {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-right: 10px;
+        cursor: pointer
+    }
+
+.option-box .gear-check
+    {
+        padding: 5px;
+        color: #fff;
+        cursor: pointer
+    }
+
+/* Start Section tool box*/
+
+
+
+/* Start Section Scroll to top*/
+#scroll-top{
+    width:50px;
+    height: 40px;
+    background-color: #272727;
+    text-align: center;
+    color: #DDD;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 9999;
+    cursor: pointer;
+    display: none
+}
+#scroll-top:hover{
+    background-color:seagreen
+}
+/* End Section Scroll to top*/
+
+
+
+/* End our Same options*/
+
+/* Start Page About*/
+.about-features  {
+    padding-bottom: 50px;
+    padding-top: 50px
+}
+/* End Page About*/
+
+/* Start FAQ */
+
+.faq h1{
+    font-family: bold;
+    font-size: 50px;
+    color: red
+        
+}
+.faq h1~hr{
+    width: 60%
+}
+.faq-questions .panel-heading{
+    padding: 20px
+}
+.faq-questions .panel-heading a:after{
+    font-family: 'Glyphicons Halflings';
+    content: '\e114';
+    float:right;
+    color: #444;
+}
+.faq-questions .panel-heading a.collapsed:after{
+    content: '\e080';
+    color: #999
+}
+
+/* End FAQ*/
+
+
+
+
+/* sTART Navbar */
+
+.navbar{min-height: 70px}
+
+/* brand name */
+
+.navbar .navbar-header .navbar-brand > img
+    {
+        margin-top:-10px;
+        padding-top:10px;
+        min-width: 100px   
+    }
+
+/* active linke of nav bar*/
+
+/* nav bar links */
+
+.navbar-inverse .navbar-nav > li > a
+    {
+        color:#fefffd;
+        font-size: 19px;
+        text-transform: capitalize;
+        color: bd8154;
+        padding-top:25px;
+        padding-bottom: 25px
+    }
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {color: #5487ad}
+/* End Nav Bar */
+
+/* Start Section Subscribe */
+
+.subscribe{padding-top: 50px;padding-bottom: 100px;}
+
+.subscribe .our-form .form-group .text
+    {
+        float: right;
+        margin-right: 25px;
+        margin-top: -40px;
+        position: relative;
+        z-index:2 ;
+        color: #333;
+        width: 20%
+    }
+
+.subscribe .our-form .form-group input
+    {
+        margin: 10px;
+        padding:15px;
+        display:inline;
+        width:80%;
+        border-left:3px solid #2196f3
+    }
+
+.subscribe  .area
+    {
+        padding:25px;
+        text-align: justify;
+        border-left:3px solid #2196f3
+    }
+
+.subscribe button
+    {
+        position: absolute;
+        bottom: -70px;
+        right: 50px;
+        margin:10px;
+        font-size: 18px;
+    }
+
+.subscribe button span{color: #333;margin: 6px 10px 6px 10px}
+
+.subscribe button:hover
+    {
+        background: #fff;
+        color: #333;
+        border:1px solid #333; 
+    }
+
+.subscribe .area .text
+    {
+        position: absolute;
+        margin-top: -75px;
+        margin-left: 470px
+    }
+
+/* End Section subscribe */
+
+/* Start Footer*/
+
+.footer
+    {
+        padding-top:100px;
+        padding-bottom:100px;
+        background-color:#dab413;   
+    }
+
+.footer .container
+    {
+        background-color: #282828;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+.footer .container .company h3{font-size: 17px}
+
+.footer .container .company p{font-size: 15px}
+
+.footer .container .company span{display: block;text-align: right}
+
+.footer .container .connected { padding-left: 50px}
+
+.footer .container .connected ul li{margin: 10px}
+
+.footer .container .connected ul li img
+    {
+        margin-right: 20px;
+        opacity: .3;
+        cursor: pointer;
+    }
+
+.footer .container .connected ul li img:hover{ opacity: 1}
+
+.footer .container .connected ul li a{text-decoration: none;color: gray}
+
+.footer .container .information{padding-left: 50px}
+
+.footer .container .information span{display: inline-block;margin-right: 10px}
+
+.footer .container .information .lead:first-of-type{display: inline-block}
+
+.footer .container .information .lead:nth-child(3),
+.footer .container .information .lead:nth-child(4){margin-left: 43px}
+
+.footer .container .information div:nth-child(2){padding-left: 8px}
+
+/* End footer*/
+
+/*Start Our End Fotter*/
+
+ .our-end .container{ background-color: #221e1d;}
+
+.our-end .container p{font-size: 16px}
+
+.our-end .container ul li{display: inline-block}
+
+/*End Our End Fotter*/

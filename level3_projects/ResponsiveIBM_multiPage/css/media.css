@@ -1,0 +1,290 @@
+@media (max-width:767px){
+
+    
+    /* start Page About*/
+        .about-ceo {
+        text-align: center
+    }
+    .about-ceo h2{
+        padding-bottom:20px;
+        line-height: 1.5;
+        
+    }
+    .about-ceo .lead{
+       line-height: 1.8;
+        padding-bottom: 10px
+    }
+    .about-ceo button{
+        margin-bottom: 50px;
+    }
+    .about-ceo  .images{
+        display: inline-block;
+        margin: auto;
+        
+        
+    }
+    /* End page About*/
+    
+    /* End Section About */
+.about .our h2
+    {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 25px;
+        font-family: fantasy
+    }
+   
+.about .our p
+    {
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.5;
+        margin-bottom: 30px;  
+    }
+.about .our .link2{display: block;margin: 20px auto}
+    
+.about .our img
+    {
+        margin-bottom: 10px;
+        display: block;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin:  auto;
+    }
+    
+.about .our .content
+    {
+        display: block;
+        margin:  auto ;
+        font-size: 13px;
+        width:300px 
+    }
+    
+.about .our .content p,
+.about .our .content .first,
+.about .our .content span
+    {
+        font-size: 15px;
+        text-align: left;
+        padding:0
+    }
+    
+.about .our  .three{background-color: #555 !important; }
+    
+.about .our .last{margin-bottom: -130px !important;}
+    
+.about-two .our-two h2{color: green }
+/* End Section About */
+/* Start Our Media */
+.media-links .media-overlay .our-links a{font-size: 25px}
+    
+.media-links .media-overlay h2{font-size: 20px}
+    
+.media-links .media-overlay h3{font-size: 20px;}
+    
+.media-links .media-overlay .images .media-images img{ width:70px;height: 70px;}
+    
+    /* End Our Media */
+    
+    /* Start Our Features */
+    
+.features .our-features { display: inline-block; margin: 15px auto;  }
+    
+.testimonials  h2{font-size: 20px;font-weight: bold}
+ 
+.testimonials .carousel-inner .item h3
+    {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        font-size: 18px
+    }
+    
+.testimonials .carousel-indicators li,
+.testimonials .carousel-indicators li img,
+.testimonials .carousel-indicators .active{ width:50px;height: 50px;}
+    
+     /* End Our Features */
+    
+    /* Start price table */
+    
+.price-table .our-price {border:1px solid #333;display: inline-block;}
+ 
+.price-table .our-price ul{font-size: 18px;line-height: 150%}
+    
+.price-table .our-price a
+    {
+        display: block;
+        margin:  auto;
+        margin-bottom: 20px;
+        font-size: 15px;
+        
+    }
+    
+    
+/* End price table */
+    
+/* Start Main Product*/
+    
+.main-product .image img
+    {
+        width:200px;
+        height: 200px;
+        margin-bottom: 80px
+    }
+   
+.main-product .content a{display: none}
+    
+/* End Main Product*/
+    
+/* start footer*/
+.footer .company{padding-bottom: 50px}
+    
+.footer .container .company{text-align: center;padding-bottom: 50px}
+    
+.footer .container .information {padding-left:0;}
+    
+.footer .container .connected {padding-left:0;padding-bottom: 50px}
+/*end footer*/
+.our-end .container {text-align: center}
+    
+.our-end .container ul li{display: block;}
+    
+    .navbar-inverse .navbar-nav > li > a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+         font-size: 15px
+    }
+    .navbar-inverse .navbar-nav > li .first{
+      
+        margin-top:10px;
+        
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+       
+    border: 1px solid #333;
+    margin-top: 20px;
+    background-color: #333;
+    }
+    .navbar-toggle {
+        margin-right: 25px;
+        margin-bottom: 0;
+        margin-top: 20px
+    }
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
+        max-height: none;
+      
+    }
+    .about .diff{
+        text-align: center;
+    padding-bottom: 30px
+}
+   
+}
+
+
+/* ------------------------------------------------------------------------*/
+
+@media (min-width:768px) and (max-width:991px){
+    /* Start Section About */
+.about .our h2{text-align: left;color: #7d83d0}
+    
+.about .our
+    {
+        margin-bottom: 20px;
+        margin-left: 30px;
+        display: block
+    }
+    
+.about .our  .content{ width:300px;}
+    
+.about .our  .three{ background-color: #555 !important; width:300px}
+    
+ /* Start Section About */
+    
+/* start section Features */
+    
+.features h2{color:#333;margin-bottom: -20px}
+    
+.features .our-features {display: inline-block;margin: 20px auto}
+    
+ /* End section Features */
+    
+/* Start Our Main Product*/
+    
+.main-product .content a{display: none}
+    
+.main-product .image img{margin-bottom: 80px}
+    
+/* End Our Main Product*/
+    
+/* start footer*/
+    
+.footer .company{padding-bottom: 50px}
+/* end footer*/  
+    /* start Page About*/
+        .about-ceo {
+        text-align: left
+    }
+    .about-ceo h2{
+        padding-bottom:20px;
+        line-height: 1.5;
+        
+    }
+    .about-ceo .lead{
+       line-height: 1.8;
+        padding-bottom: 10px
+    }
+    .about-ceo button{
+        margin-bottom: 50px;
+    }
+    .about-ceo  .images{
+        display: inline-block;
+    }
+    /* End page About*/
+}
+/*--------------------------------------------------------------------------------*/
+
+@media (min-width:992px) and (max-width:1199px){
+   /*Start Our About */
+.about .our
+    {
+        margin-bottom: 20px;
+        margin-left: 30px;
+        display: block
+    }
+    
+.about .our h2{text-align: left}
+    
+.about .our  .content{width:300px;}
+    
+.about .our  .three{background-color: #ddd !important;width:300px}
+    
+ /*End Our About */
+    
+/* Start Our Features */
+.features h2
+    {
+        color: #333;
+        font-size: 35px;
+        padding-bottom: 20px
+        
+    }
+.features .angel
+    {
+        margin-top: -30px;
+        color: darkred;
+        cursor: pointer;   
+    }
+
+    
+.features .our-features{padding-top: 25px}
+
+/* End Our Features */
+    
+/* start footer*/
+    
+    .footer .company{padding-bottom: 50px}
+    
+    /* end footer*/ 
+}
+
